@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={17551.596,989.52728,17206.258};
-		dir[]={0.63363087,-0.70082647,0.32791558};
-		up[]={0.62241364,0.71332324,0.32211131};
-		aside[]={0.45965791,1.3068784e-006,-0.88819945};
+		pos[]={18314.957,1001.6406,18325.297};
+		dir[]={0.51554489,-0.5335812,0.6705817};
+		up[]={0.32523152,0.8457225,0.42303768};
+		aside[]={0.79285938,9.0256799e-007,-0.60955483};
 	};
 };
 binarizationWanted=0;
@@ -49,25 +49,6 @@ class CustomAttributes
 	{
 		name="Multiplayer";
 		class Attribute0
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		class Attribute1
 		{
 			property="RespawnTemplates";
 			expression="true";
@@ -114,6 +95,25 @@ class CustomAttributes
 							};
 						};
 					};
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
 				};
 			};
 		};
@@ -416,7 +416,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={18305.15,63.235306,18651.295};
-			name="factory";
+			name="resource_1";
 			text="Test - Resource Objective";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
@@ -426,7 +426,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={19404.342,63.267868,18641.336};
-			name="capture";
+			name="secondary";
 			text="Test - Secondary Objective";
 			type="n_art";
 			colorName="ColorEAST";
@@ -446,7 +446,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={16497.334,94.504272,19109.611};
-			name="bigtown";
+			name="primary";
 			text="Incirkli - Test Primary Objective";
 			type="n_service";
 			colorName="ColorEAST";
