@@ -172,6 +172,3 @@ hyp_fnc_traceFireRemove = {
     _unit setVariable ["hyp_var_tracer_activeIndexes", []];
     _unit setVariable ["hyp_var_tracer_eventHandle", nil];
 };
-
-[player, [1,0,0,1], 3, 2, nil, 3] call hyp_fnc_traceFire; 
-

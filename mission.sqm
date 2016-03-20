@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=69;
+		nextID=73;
 	};
 	class MarkerIDProvider
 	{
-		nextID=67;
+		nextID=71;
 	};
 	class Camera
 	{
-		pos[]={17551.596,989.52728,17206.258};
-		dir[]={0.63363087,-0.70082647,0.32791558};
-		up[]={0.62241364,0.71332324,0.32211131};
-		aside[]={0.45965791,1.3068784e-006,-0.88819945};
+		pos[]={18314.957,1001.6406,18325.297};
+		dir[]={0.51554489,-0.5335812,0.6705817};
+		up[]={0.32523152,0.8457225,0.42303768};
+		aside[]={0.79285938,9.0256799e-007,-0.60955483};
 	};
 };
 binarizationWanted=0;
@@ -401,16 +401,8 @@ class Mission
 	};
 	class Entities
 	{
-		items=45;
+		items=21;
 		class Item0
-		{
-			dataType="Marker";
-			position[]={17317.381,6.8968539,19514.797};
-			name="respawn_west";
-			type="Empty";
-			id=0;
-		};
-		class Item1
 		{
 			dataType="Marker";
 			position[]={18262.35,205.00345,19277.682};
@@ -420,42 +412,42 @@ class Mission
 			colorName="ColorEAST";
 			id=1;
 		};
-		class Item2
+		class Item1
 		{
 			dataType="Marker";
 			position[]={18305.15,63.235306,18651.295};
-			name="factory";
+			name="resource_1";
 			text="Test - Resource Objective";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=2;
 		};
-		class Item3
+		class Item2
 		{
 			dataType="Marker";
 			position[]={19404.342,63.267868,18641.336};
-			name="capture";
-			text="Test - Small Objective";
+			name="secondary";
+			text="Test - Secondary Objective";
 			type="n_art";
 			colorName="ColorEAST";
 			id=3;
 		};
-		class Item4
+		class Item3
 		{
 			dataType="Marker";
 			position[]={19117.244,91.068466,19227.396};
-			name="tower";
+			name="intel";
 			text="Test - Intel Objective";
 			type="loc_Transmitter";
 			colorName="ColorEAST";
 			id=4;
 		};
-		class Item5
+		class Item4
 		{
 			dataType="Marker";
-			position[]={16511.779,94.504272,19044.604};
-			name="bigtown";
-			text="Incirkli - Test - Big Town / Prim Objective";
+			position[]={16497.334,94.504272,19109.611};
+			name="primary";
+			text="Incirkli - Test Primary Objective";
 			type="n_service";
 			colorName="ColorEAST";
 			a=1.55;
@@ -463,18 +455,18 @@ class Mission
 			angle=90;
 			id=6;
 		};
-		class Item6
+		class Item5
 		{
 			dataType="Marker";
-			position[]={18809.582,243.73396,17372.689};
+			position[]={18555.133,219.37982,17986.879};
 			name="opfor_airspawn";
 			type="Empty";
 			id=7;
 		};
-		class Item7
+		class Item6
 		{
 			dataType="Marker";
-			position[]={15593.561,40.010952,16333.951};
+			position[]={1111.0728,5.9291358,19427.52};
 			name="spawn_radi";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -484,10 +476,10 @@ class Mission
 			b=1000;
 			id=8;
 		};
-		class Item8
+		class Item7
 		{
 			dataType="Marker";
-			position[]={15592.863,39.626328,16330.906};
+			position[]={1110.3755,5.9414134,19424.475};
 			name="cap_radi";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -496,10 +488,10 @@ class Mission
 			b=150;
 			id=9;
 		};
-		class Item9
+		class Item8
 		{
 			dataType="Marker";
-			position[]={15595.168,39.682476,16331.004};
+			position[]={1112.6802,1.7470703,19424.572};
 			name="pdef_radi";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -510,23 +502,10 @@ class Mission
 			b=500;
 			id=10;
 		};
-		class Item10
+		class Item9
 		{
 			dataType="Marker";
-			position[]={16513.16,4.6698513,19032.699};
-			name="spawn_radi_1";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorGrey";
-			alpha=0.62910497;
-			a=1000;
-			b=1000;
-			id=11;
-		};
-		class Item11
-		{
-			dataType="Marker";
-			position[]={16512.463,3.2732391,19029.654};
+			position[]={15333.906,86.246704,17763.404};
 			name="cap_radi_1";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -535,10 +514,10 @@ class Mission
 			b=150;
 			id=12;
 		};
-		class Item12
+		class Item10
 		{
 			dataType="Marker";
-			position[]={16514.768,5.1267319,19029.752};
+			position[]={16197.432,79.786621,17881.225};
 			name="pdef_radi_1";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -549,195 +528,7 @@ class Mission
 			b=500;
 			id=13;
 		};
-		class Item13
-		{
-			dataType="Marker";
-			position[]={18305.049,5.7659121,18652.336};
-			name="spawn_radi_2";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorGrey";
-			alpha=0.62910497;
-			a=1000;
-			b=1000;
-			id=14;
-		};
-		class Item14
-		{
-			dataType="Marker";
-			position[]={18305.57,4.4589834,18652.646};
-			name="cap_radi_2";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorRed";
-			a=150;
-			b=150;
-			id=15;
-		};
-		class Item15
-		{
-			dataType="Marker";
-			position[]={18305.131,6.3311248,18652.436};
-			name="pdef_radi_2";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorBlack";
-			alpha=0.86083156;
-			fillName="FDiagonal";
-			a=500;
-			b=500;
-			id=16;
-		};
-		class Item16
-		{
-			dataType="Marker";
-			position[]={19400.773,4.9415779,18633};
-			name="spawn_radi_3";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorGrey";
-			alpha=0.62910497;
-			a=1000;
-			b=1000;
-			id=17;
-		};
-		class Item17
-		{
-			dataType="Marker";
-			position[]={19407.057,3.3539691,18642.363};
-			name="cap_radi_3";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorRed";
-			a=150;
-			b=150;
-			id=18;
-		};
-		class Item18
-		{
-			dataType="Marker";
-			position[]={19405.096,5.2729282,18640.91};
-			name="pdef_radi_3";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorBlack";
-			alpha=0.86083156;
-			fillName="FDiagonal";
-			a=500;
-			b=500;
-			id=19;
-		};
-		class Item19
-		{
-			dataType="Marker";
-			position[]={19117.352,58.94656,19228.891};
-			name="spawn_radi_4";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorGrey";
-			alpha=0.62910497;
-			a=1000;
-			b=1000;
-			id=20;
-		};
-		class Item20
-		{
-			dataType="Marker";
-			position[]={19118.178,58.37458,19227.674};
-			name="cap_radi_4";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorRed";
-			a=150;
-			b=150;
-			id=21;
-		};
-		class Item21
-		{
-			dataType="Marker";
-			position[]={19117.738,59.955147,19226.857};
-			name="pdef_radi_4";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorBlack";
-			alpha=0.86083156;
-			fillName="FDiagonal";
-			a=500;
-			b=500;
-			id=22;
-		};
-		class Item22
-		{
-			dataType="Marker";
-			position[]={18262.781,4.6838169,19276.117};
-			name="spawn_radi_5";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorGrey";
-			alpha=0.62910497;
-			a=1000;
-			b=1000;
-			id=23;
-		};
-		class Item23
-		{
-			dataType="Marker";
-			position[]={18262.531,3.2732391,19277.377};
-			name="cap_radi_5";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorRed";
-			a=150;
-			b=150;
-			id=24;
-		};
-		class Item24
-		{
-			dataType="Marker";
-			position[]={18263.055,5.1271133,19277.623};
-			name="pdef_radi_5";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorBlack";
-			alpha=0.86083156;
-			fillName="FDiagonal";
-			a=500;
-			b=500;
-			id=25;
-		};
-		class Item25
-		{
-			dataType="Marker";
-			position[]={19374.182,53.730347,17256.879};
-			name="opfor_airspawn_1";
-			type="Empty";
-			id=26;
-		};
-		class Item26
-		{
-			dataType="Marker";
-			position[]={19941.299,16.726929,17358.086};
-			name="opfor_airspawn_2";
-			type="Empty";
-			id=27;
-		};
-		class Item27
-		{
-			dataType="Marker";
-			position[]={18318.742,7.2675548,17333.988};
-			name="opfor_airspawn_3";
-			type="Empty";
-			id=28;
-		};
-		class Item28
-		{
-			dataType="Marker";
-			position[]={17547.301,9.977417,18158.865};
-			name="opfor_point_1";
-			type="Empty";
-			id=31;
-		};
-		class Item29
+		class Item11
 		{
 			dataType="Group";
 			side="West";
@@ -749,13 +540,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={17929.014,3.8656647,20298.875};
+						position[]={18195.115,3.274678,18948.508};
 					};
 					side="West";
 					flags=3;
 					class Attributes
 					{
 						rank="CAPTAIN";
+						init="this allowDamage false;";
 						isPlayer=1;
 					};
 					id=53;
@@ -904,20 +696,20 @@ class Mission
 			};
 			id=52;
 		};
-		class Item30
+		class Item12
 		{
 			dataType="Marker";
-			position[]={14613.995,62.049561,19510.074};
-			name="factory_1";
+			position[]={14620.879,61.381641,19510.168};
+			name="resource";
 			text="Test - Resource Objective";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=54;
 		};
-		class Item31
+		class Item13
 		{
 			dataType="Marker";
-			position[]={14623.653,4.5801678,19517.52};
+			position[]={14171.784,18.710449,18521.658};
 			name="spawn_radi_6";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -927,10 +719,10 @@ class Mission
 			b=1000;
 			id=55;
 		};
-		class Item32
+		class Item14
 		{
 			dataType="Marker";
-			position[]={14622.956,3.2732391,19514.475};
+			position[]={15436.171,45.275753,18118.725};
 			name="cap_radi_6";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -939,10 +731,10 @@ class Mission
 			b=150;
 			id=56;
 		};
-		class Item33
+		class Item15
 		{
 			dataType="Marker";
-			position[]={14625.261,5.1453805,19514.572};
+			position[]={15448.735,12.153564,18786.709};
 			name="pdef_radi_6";
 			markerType="ELLIPSE";
 			type="ellipse";
@@ -953,93 +745,45 @@ class Mission
 			b=500;
 			id=57;
 		};
-		class Item34
+		class Item16
 		{
 			dataType="Marker";
-			position[]={18182.096,3.8101511,17544.814};
-			name="opfor_point_2";
-			type="Empty";
-			id=58;
-		};
-		class Item35
-		{
-			dataType="Marker";
-			position[]={18799.369,6.7765265,17903.258};
-			name="opfor_point_3";
-			type="Empty";
-			id=59;
-		};
-		class Item36
-		{
-			dataType="Marker";
-			position[]={19515.402,4.4814987,17886.053};
-			name="opfor_point_4";
+			position[]={18804.697,6.535809,17978.182};
+			name="opfor_point";
 			type="Empty";
 			id=60;
 		};
-		class Item37
+		class Item17
 		{
 			dataType="Marker";
-			position[]={20026.516,3.8118494,18020.9};
-			name="opfor_point_5";
+			position[]={18539.854,25.43199,17827.316};
+			name="opfor_airspawn_1";
 			type="Empty";
-			id=61;
+			id=69;
 		};
-		class Item38
+		class Item18
 		{
 			dataType="Marker";
-			position[]={20046.291,4.2473974,18484.973};
-			name="opfor_point_6";
+			position[]={18798.689,22.924456,17809.768};
+			name="opfor_point_1";
 			type="Empty";
-			id=62;
+			id=70;
 		};
-		class Item39
+		class Item19
 		{
 			dataType="Marker";
-			position[]={19828.42,3.7135432,20210.258};
-			name="opfor_point_7";
+			position[]={18781.141,45.435406,17651.834};
+			name="opfor_point_2";
 			type="Empty";
-			id=63;
+			id=71;
 		};
-		class Item40
+		class Item20
 		{
 			dataType="Marker";
-			position[]={19159.377,5.995079,19864.35};
-			name="opfor_point_8";
+			position[]={18759.203,34.227829,17476.352};
+			name="opfor_point_3";
 			type="Empty";
-			id=64;
-		};
-		class Item41
-		{
-			dataType="Marker";
-			position[]={18772.197,30.971146,20095.818};
-			name="opfor_point_9";
-			type="Empty";
-			id=65;
-		};
-		class Item42
-		{
-			dataType="Marker";
-			position[]={18390.785,4.0062189,20229.689};
-			name="opfor_point_10";
-			type="Empty";
-			id=66;
-		};
-		class Item43
-		{
-			dataType="Marker";
-			position[]={16839.912,37.217773,17778.244};
-			name="opfor_point_11";
-			type="Empty";
-			id=67;
-		};
-		class Item44
-		{
-			dataType="Marker";
-			position[]={17618.535,7.8995891,18911.842};
-			name="opfor_point_12";
-			type="Empty";
-			id=68;
+			id=72;
 		};
 	};
 };
