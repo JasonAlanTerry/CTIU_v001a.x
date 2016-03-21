@@ -1,0 +1,18 @@
+disabledAI = true;
+
+enableDebugConsole = 1;
+allowFunctionsLog = 0;
+
+loadScreen="";
+onLoadMission = $STR_MISSION_TITLE;
+author = "[TFV]Nos, [TFV]Salerno";
+onLoadName = $STR_MISSION_TITLE;
+
+joinUnassigned = 0;
+
+class Header
+{
+	gameType = CTI;
+	minPlayers = 1;
+	maxPlayers = 41;
+};
