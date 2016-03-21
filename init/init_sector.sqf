@@ -46,16 +46,3 @@ sectors_resource = [];
 		sectors_allSectors pushback _x;
 	};
 } foreach allMapMarkers;
-
-
-/* when within X of markers
-
-getmarker position
-createMarker at marker position
-setmarker shape elipse
-setmarker size x x
-
-_markerinf = createMarker ["markername", player];
-_markerinf setMarkerShape "RECTANGLE";
-_markerinf setMarkerSize [100,100];
-*/ 
