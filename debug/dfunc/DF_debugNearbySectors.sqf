@@ -15,7 +15,11 @@ hint "stage 2";
 sleep 5;
 
 // Not 100% on the syntax here, the examples kinda sucked...
-_nc = if ( _nearby_count > 0 ) [{hint ["No Sectors!"];};{ _nc str _nearby_count;};];wswswd
+private _nc = "";
+if (_nearby_count > 0) then {
+    exitWith {hint "No Sectors!";};
+};
+_nc = str(_nearby_count);
 hint "stage 3";
 sleep 5;
 
