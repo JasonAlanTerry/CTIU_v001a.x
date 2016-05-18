@@ -11,4 +11,4 @@ _nearby_count = 0;
 _isnearby = [ sectors_allSectors , { (markerPos _x) distance _postosearch < SECTOR_SPAWNRADIUS }  ] call BIS_fnc_conditionalSelect;
 _nearby_count = count _isnearby;
 
-_nearby_count // Return nearby_count
+_nearby_count; // Return nearby_count

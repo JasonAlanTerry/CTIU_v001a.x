@@ -1,16 +1,18 @@
-sectors_allSectors = []; // For tracking total sectors???
-sectors_taken = [];
-sectors_opfor = [];
-sectors_primary = [];
-sectors_secondary = [];
-sectors_military = [];
-sectors_intel = [];
-sectors_resource = [];
+sectors_allSectors = []; // For Tracking Total sectors???
+sectors_taken = []; // For Tracking Captured Sectors
+sectors_opfor = []; // marker used to spawn opfor units semi-randomly
+sectors_primary = []; // Group of ALl Primary Objectives
+sectors_secondary = []; // Group of ALL Secondary Objecttives
+sectors_military = []; // Group of ALL Military Objectives
+sectors_intel = []; // Group of ALL Intel Objectives
+sectors_resource = []; // Group of ALL Resource Objectives
 
 
 {
-	_isobjective = false;
-	_tempmarker = toArray _x; _tempmarker resize 11;
+	_isobjective = false; // Assure _isobjective starts as FALSE for checks
+	_tempmarker = toArray _x;
+  _tempmarker resize 11;
+
 	if ( toString _tempmarker == "opfor_point" ) then {
 		sectors_opfor pushback _x;
 		_isobjective = false;

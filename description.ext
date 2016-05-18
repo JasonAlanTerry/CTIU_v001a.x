@@ -5,7 +5,7 @@ allowFunctionsLog = 0;
 
 loadScreen="";
 onLoadMission = $STR_MISSION_TITLE;
-author = "[TFV]Nos, [TFV]Salerno";
+author = "25th MEU S-2";
 onLoadName = $STR_MISSION_TITLE;
 
 joinUnassigned = 0;
