@@ -8,7 +8,9 @@ hint "stage 1";
 sleep 5;
 
 // call user func that gets all sectors within 850 of player
-_nearby_count = [] call JF_getAllNearbySectors;
+_nearby_count = 0;
+hint "stage 1.5";
+_nearby_count = [debug_player] call JF_getAllNearbySectors;
 
 // debug hints not showing.... why...
 hint "stage 2";
