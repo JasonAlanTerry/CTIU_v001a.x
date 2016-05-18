@@ -26,6 +26,5 @@ systemChat "INIT SUCCESS?";
 // E.g. ["BLUE1","AlphaSquad","B_Heli_Transport_01_camo_F"] (including ""s)
 // Specifying "B_Heli" would stop all units with that class type from transferring to HCs
 // However, if you specify "BLUE1", "NAVYBLUE10" will also be ignored
-
 // Setup HC
 [true,30,false,false,30,5,true,[]] execVM "WerthlesHeadless.sqf";

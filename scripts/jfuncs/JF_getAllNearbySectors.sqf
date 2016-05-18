@@ -1,8 +1,8 @@
 /*
  * Function to find all Nearby_Sectors in reliation to playerPos, this will be adjusted later, currently for debug / testing.
  */
-params [ ["_postosearch", getPos player] ];
-// Set up privates? Unsure if I have to do this...
+params [ [_postosearch, getPos player] ];
+// set up vars for local use
 _isnearby = [];
 _nearby_count = 0;
 
